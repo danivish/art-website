@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+
+        body{
+            /*background-image: url(DYSM-still.png); */
+            background-image: url(DYSM-still3.png);
+            background-color: black;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            margin: 0; /* Remove any default margin */
+            padding: 0; /* Remove any default padding */
+
+        }
+
+        /*creates gradient over background image*/ 
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.65); /* Dark overlay */
+            z-index: -1; /* Places the overlay behind content */
+        }
+        
+
+        .still img{
+            float: right;
+            margin-left: 10px;
+            padding-bottom: 10px;
+            max-width: 50%;
+            padding-right: 20px;
+        }
+
+        .still2 img{
+            clear: both;
+            margin-left: 10px;
+            padding-top: 0px;
+            max-width: 50%;
+            padding-right: 20px;
+        }
+
+        p{
+            overflow: hidden;
+            text-align: center;
+            color: rgb(177, 0, 74); 
+        }
+
+        h1{
+            color: rgb(177, 0, 74); 
+        }
+
+        h2{
+            color: rgb(177, 0, 74); 
+            text-align: center; 
+
+
+        }
+
+        nav a {
+            color:rgb(177, 0, 74); 
+        }
+    
+
+    </style>
+
+</head>
+<body> 
+    <header>
+        <h1>Danielle Vishlitzky</h1>
+        <nav>
+            <a href="gallery.html"> Projects </a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <div class="still">
+            <img src="DYSM-still.png" alt="Still from HAUNTED">
+            <div class="image-text"> <br> </div>
+        </div>
+        <h2> Do You See Me (2024)</h2>
+        <p>  </p>
+        <div class="still2">
+            <img src="DYSM-Still2.png" alt="Still from HAUNTED">
+            <div class="image-text"> <br> </div>
+        </div>
+    </main>
+</body>
+</html>
