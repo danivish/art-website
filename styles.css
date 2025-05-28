@@ -1,0 +1,65 @@
+/* styles.css */
+/* CSS code here */
+
+/* PAGE LAYOUT */ 
+body {
+    background-color: rgb(255, 248, 232);
+    /* background-image: url('Awakening-FLAT.mp4'); */ 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    padding-block: 30px;
+    /* margin-left: 50%; */
+    text-align: center;
+}
+
+footer {
+    display:block;
+    clear:both;
+    padding-block: 15px;
+    text-align: center;
+}
+
+/* NAVIGATION LINKS */ 
+nav ul {
+    list-style-type: none; /* Removes default ist styling */ 
+    padding: 0; 
+
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */ 
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    font-size: 20px; 
+}
+
+nav a:hover { 
+    color: rgb(226, 18, 241);
+}
+
+iframe{
+    margin: 0px;
+    border: none;
+    min-width: vh;
+    text-align: center;
+}
+
+
+/* FOOTER LINKS */ 
+
+footer a {
+    text-decoration: none; /* Removes underline */ 
+    color: rgb(226, 18, 241);
+    margin: 30px;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: black;
+}
