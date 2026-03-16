@@ -1,0 +1,80 @@
+/* styles.css */
+/* CSS code here */
+
+/* PAGE LAYOUT */ 
+body {
+   
+    background-color: rgb(255, 248, 232, 0.8);
+    background-size: cover;
+    background-position: contain; 
+    background-repeat: repeat;
+}
+
+header {
+    /*HEADER TEXT*/ 
+    /*font-family:'Times New Roman', Times, serif;*/ 
+    font-family:'Lucida Console', Monaco, Monospace;
+    color:rgb(0, 0, 0);
+    padding-block: 10px;
+    /* margin-left: 50%; */
+    text-align: center;
+
+
+    position: relative;
+    top: 0;
+    center: 0; 
+    object-fit: cover;
+    z-index: 100;
+
+}
+
+footer {
+    display:block;
+    clear:both;
+    padding-block: 15px;
+    text-align: center;
+}
+
+/* NAVIGATION LINKS */ 
+nav ul {
+    list-style-type: none; /* Removes default ist styling */ 
+
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */ 
+    font-family:'Courier New', Monaco, Monospace;
+    color: rgb(0, 0, 0);
+    margin: 30px; /* horizontal space between links */
+    font-size: 20px; 
+}
+
+nav a:hover { 
+    color: rgb(226, 18, 241);
+}
+
+iframe{
+    margin: 0px;
+    border: none;
+    min-width: vh;
+    text-align: center;
+}
+
+
+/* FOOTER LINKS */ 
+
+footer a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none; /* Removes underline */ 
+    color: rgb(226, 18, 241);
+    margin: 30px;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+h1{}
+h2{}
+h3{}
