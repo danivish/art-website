@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lost Loopt" content="width=device-width, initial-scale=1.0">
+    <title>Lost Loop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+        .flex-container{
+            display: flex; 
+            flex-direction: row;
+            justify-content: center; 
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0px; 
+        }
+        
+        .flex-item{
+            margin: 1px;
+            padding: 1px; 
+            width: 1000px;
+            height: 600px;
+            display: flex; 
+            justify-content: center;
+        }
+
+        .flex-item img{
+            width:100%;
+            height: 100%; 
+            object-fit: fill; 
+            justify-content: center; /*switch wiht contain if needed */ 
+            align-self: center;
+
+        }
+
+        .flex-item video{
+            width:100%;
+            height: 100%; 
+            object-fit: contain; 
+            display: flex; 
+            justify-content: center;
+            align-self: center;
+
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        h3{
+            text-align: center;
+            font-weight: lighter;
+        }
+      
+        p{
+         font-size: 20px;;
+         text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Danielle Vishlitzky</h1>
+        <nav>
+            <a href="index.html">Projects</a>
+            <a href="about.html" id="about-tab">About</a>
+        </nav>
+    </header>
+    <main>
+        <div class="flex-container" id="flex-containter">
+           <div class="flex-item">
+                <video id="lost-loop video" autoplay muted loop>
+                    <source src="VIDEO/ear-loop.mp4" type="video/mp4" alt="Lost Loop Excerpt">
+                    Sadness! Your browser does not support this video tag 
+                </video>
+           </div>
+        </div>
+
+        <h2>Lost Loop</h2>
+        <h3>work in progress</h3>
+        <p>voicemails and painted 16mm film, glimpse of a father-daughter relationship </p>
+
+    </main>
+    <footer>
+        <footer>
+            <a href=https://www.instagram.com/dani_vish/ target="_blank"> Instagram </a>
+            <a href=https://vimeo.com/user101065843 target="_blank"> Vimeo </a>
+    </footer>
+</body>
+</html>

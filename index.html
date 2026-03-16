@@ -15,11 +15,11 @@
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
-            grid-gap: 1px;
+            grid-gap: 10px;
             position: relative;
-            margin-left: 100px;
+            /*margin-left: 100px;
             margin-right: 100px;
-            margin-top: 30px;
+            margin-top: 30px; */
         }
 
         /* Style for gallery items */
@@ -176,7 +176,7 @@
     <header>
         <h1>Danielle Vishlitzky</h1>
         <nav> 
-            <a href="gallery.html" id="project-tab" > Projects </a>
+            <a href="index.html" id="project-tab" > Projects </a>
             <a href="about.html"> About </a>
         </nav>
     </header>
@@ -184,19 +184,30 @@
     <div class="gallery">
         <!-- Gallery items NEWEST FIRST -->
         <div class="gallery-item" id="video-container2">
-            <a href="do-you-see-me-v2.html">
+            <a href="mothers-house.html">
                 <video id="video2" autoplay muted loop>
-                <source src="VIDEO/Website_House.mp4" type="video/mp4" alt="House, untitled (2025)">
+                <source src="VIDEO/Website_House.mp4" type="video/mp4" alt="My mother's house">
                 Sadness! Your browser does not support this video tag
                 </video> 
                 <div class="image-text"> My Mother's House </div>
             </a>
         </div>
-        <div class="gallery-item">
-            <img src="PNG/Lost-Loop-Still1.jpg" alt="Still from LOST LOOP">
-            <div class ="image-text">Lost Loop</div>
+        <div class="gallery-item" alt="Home Slash Land">
+            <a href="home-slash-land.html">
+                <img src="PNG/phytography copy.jpg" alt="Still from LOST LOOP">
+                <div class ="image-text">Home/Land</div>
+            </a>
+          
         </div>
-       
+
+        <div class="gallery-item">
+            <a href="lost-loop.html">
+                <img src="PNG/Lost-Loop-Still1.jpg" alt="Still from LOST LOOP">
+                 <div class ="image-text">Lost Loop</div>
+            </a>
+            
+        </div>
+    
 
         <!-- OLDER ITEMS -->
         <div class="gallery-item">
