@@ -2,41 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="about" content="width=device-width, initial-scale=1.0">
+    <meta name="Lost Loopt" content="width=device-width, initial-scale=1.0">
     <title>About me - Danielle Vishlitzky</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-
-        /*Show "ABOUT" highlighted in the nav*/ 
-
-        #about-tab{
-            color: rgb(84, 56, 186);
+    <style> 
+        .flex-container{
+            display: flex; 
+            flex-direction: row;
+            justify-content: center; 
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0px; 
+        }
+        
+        .flex-item{
+            margin: 1px;
+            padding: 10px; 
+            width: 400px;
+            height: 500px;
+            display: flex; 
+            justify-content: center;
         }
 
-        /* Bio Photo */ 
-        .gallery-item{
-            float: left;
-            margin-left: 25px;
-            margin-right: 20px; 
-            max-width: 30%;
-        }
-        .gallery-item img {
-            height: 50%;
-            width: 100%;
-            
-            display: block; 
-            min-height: 100%;
-            /*max-width: 300px; */
-            object-fit: cover;
+        .flex-item img{
+            width:100%;
+            height: 100%; 
+            object-fit: cover; 
+            justify-content: center; /*switch wiht contain if needed */ 
+            align-self: center;
+
         }
 
+        h2{
+            text-align: center;
+        }
+
+        h3{
+            text-align: center;
+            font-weight: lighter;
+        }
+      
         p{
-            overflow: hidden;
-            margin: 20px; 
-            margin-right: 100px;
-            font-size: 25px;
+            font-size: 20px;;
+            text-align: center;
         }
 
+        a {
+            text-decoration: none; /* Removes underline */ 
+            font-family:'Courier New', Monaco, Monospace;
+            color: rgb(0, 0, 0);
+            margin: 30px; /* horizontal space between links */
+            font-size: 20px;   
+        }
+
+        a:hover{
+            color: rgb(226, 18, 241);
+        }
+        
     </style>
 </head>
 <body>
@@ -48,18 +70,26 @@
         </nav>
     </header>
     <main>
-        <div class="gallery-item">
-                <img src="PNG/Artist-Photo-No-Face.JPG" alt="Artist Photo (2024), 35mm">
-                <div class="image-text">photo by Gerardo Zelaya</div>
+        <div class="flex-container" id="flex-containter">
+           <div class="flex-item">
+                <img src="PNG/Artist-Photo-No-Face.JPG" alt="Still from LOST LOOP">
+           </div>
+           <div class="flex-item">
+            <p> Danielle Vishlitzky is an experimental filmmaker and audio-visual artist based 
+                between Massachusetts and Chicago, IL where she is completing her MFA in Film, 
+                Video, New Media, and Animation at the School of the Art Institute of Chicago. 
+                Often combining analog and digital techniques, her work explores the human body, 
+                family dynamics, and the feeling of being haunted by the land and what lies beneath it.
+
+                <br><br> <a href="PNG/[Website] Artist CV Spring 2026 -2.pdf">CV</a> |
+                <a href= "mailto:dvishlitzky@gmail.com">Contact Me Here</a>
+
+
+            </p>
+          </div>
+
         </div>
-        <p> 
-            Danielle Vishlitzky is an experimental filmmaker and audio-visual artist based 
-            between Massachusetts and Chicago, IL where she is completing her MFA in Film, 
-            Video, New Media, and Animation at the School of the Art Institute of Chicago. 
-            Often combining analog and digital techniques, her work explores the human body, 
-            family dynamics, and the feeling of being haunted by the land and what lies beneath it. </p>
-        <a href="[Website] Artist CV Spring 2026 -1.pdf">CV</a> <br>
-        <a href= "mailto:dvishlitzky@gmail.com">Contact Me Here</a>
+
 
     </main>
     <footer>
